@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('phone');
             $table->string('picture_url');
             $table->boolean('is_disable')->default(true);            
-            // $table->timestamp('email_verified_at')->nullable();
+            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             // $table->rememberToken();
             $table->timestamps();
